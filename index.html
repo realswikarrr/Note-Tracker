@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Tracking App By Swikar</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>My Notes App</h1>
+        <form action="" data-form-container>
+          <input
+            type="text"
+            id="note-title"
+            data-title-container
+            placeholder="Note title"
+          />
+          <textarea
+            id="note-text"
+            data-detail-container
+            placeholder="Note Details"
+          ></textarea>
+
+          <button id="add-btn">Add Note</button>
+        </form>
+      </div>
+    </header>
+
+    <section>
+      <div class="container" data-note-data></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
